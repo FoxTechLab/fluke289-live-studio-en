@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+  <id>io.github.chudobapiotr5.fluke289_live</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Fluke 289 Live Studio</name>
+  <summary>Read, record and compare Fluke 289 measurements</summary>
+  <description>
+    <p>Interface language: English. This release provides an English user interface, messages, reports and documentation.</p>
+    <p>View live measurements, record CSV or SQLite sessions and explore interactive plots. Organize recordings in a measurement library and compare them with PDF and CSV reports.</p>
+    <p>This independent application supports experimental meter memory downloads and does not modify meter memory. It is not affiliated with Fluke.</p>
+  </description>
+  <launchable type="desktop-id">fluke289-live.desktop</launchable>
+  <icon type="stock">fluke289-live</icon>
+  <url type="homepage">https://github.com/chudobapiotr5/fluke289-live-studio-en</url>
+  <url type="bugtracker">https://github.com/chudobapiotr5/fluke289-live-studio-en/issues</url>
+  <developer id="io.github.chudobapiotr5">
+    <name>Piotr</name>
+  </developer>
+  <provides>
+    <binary>fluke289</binary>
+  </provides>
+  <categories>
+    <category>Science</category>
+    <category>Electronics</category>
+  </categories>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="1.8.0" date="2026-10-25" />
+  </releases>
+</component>
